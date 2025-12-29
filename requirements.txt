@@ -1,0 +1,23 @@
+# Dependencias para el proyecto de medición de frecuencias CNT-91
+# TFG - Carlos Darvoy Espigulé
+
+# Comunicación con instrumentos VISA
+pyvisa>=1.15.0
+pyvisa-py>=0.8.0
+
+# Manipulación de datos y cálculos científicos
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Exportación de datos a Excel
+openpyxl>=3.1.0
+
+# Para descubrimiento automático de dispositivos TCPIP (opcional)
+zeroconf>=0.38.0
+
+# Dependencias adicionales que pueden ser necesarias
+scipy>=1.7.0  # Para análisis estadístico avanzado
+pandas>=1.3.0  # Para manipulación de datos tabulares (opcional)
+
+# Para desarrollo y testing (opcional)
+pytest>=6.0.0 
